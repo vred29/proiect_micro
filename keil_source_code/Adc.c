@@ -239,7 +239,7 @@ void show_threshold_value(){
 	UART0_Transmit('r');
 	UART0_Transmit('a');
 	UART0_Transmit('g');
-	UART0_Transmit('=');
+	UART0_Transmit(' ');
 	
 	if(aux == 0){
 		UART0_Transmit('0');
@@ -277,7 +277,7 @@ void show_light_value(){
 	UART0_Transmit('g');
 	UART0_Transmit('h');
 	UART0_Transmit('t');
-	UART0_Transmit('=');
+	UART0_Transmit(' ');
 	
 	if(aux == 0){
 		UART0_Transmit('0');
